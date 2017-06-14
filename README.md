@@ -12,17 +12,6 @@ npm run dev
 </article>
 
 
-<article class="markdown-body entry-content" itemprop="text"><h1>Express app with Docker</h1>
-
-<h2>Prerequisites</h2>
-<p>Install <a href="https://www.docker.com/">Docker</a> on your system.</p>
-<ul>
-<li><a href="https://docs.docker.com/docker-for-windows/">Install instructions</a> for Windows</li>
-<li><a href="https://docs.docker.com/installation/mac/">Install instructions</a> for Mac OS X</li>
-<li><a href="https://docs.docker.com/installation/ubuntulinux/">Install instructions</a> for Ubuntu Linux</li>
-<li><a href="https://docs.docker.com/installation/">Install instructions</a> for other platforms</li>
-</ul>
-
 <h2>Setup</h2>
 <p>Run <code>docker-compose build</code>. It will</p>
 <ul>
