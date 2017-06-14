@@ -1,0 +1,27 @@
+extends _layout
+
+block content
+	form( action="/bmi" method="POST" )
+		.row
+			.col-xs-3.text-left
+				label Name:
+					input.form-control(type="text" name="name" placeholder="Insert name" )
+				label Write your weight
+					input.form-control(type="text" name="weight" placeholder="Example 50" id="weight")
+				label Write your height
+					input.form-control(type="text" name="height" placeholder="Example 150" id="height")
+				label 
+					input.form-control(type="hidden" name="result" id="result")
+				
+		.row
+			.col-xs-12.text-left
+				
+				button.btn.btn-success( onClick="BMIcalc()") Calculate
+				button.btn.btn-success(type="reset" ) Reset
+				
+
+				
+
+	script
+		
+		include app.js

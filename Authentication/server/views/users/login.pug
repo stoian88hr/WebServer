@@ -1,0 +1,13 @@
+extends ../_layout
+block main-content
+	h1 Log In
+	form(method="post" action="/users/authenticate")
+		.row
+			.col-xs-3.text
+				label(for="username") Username
+				input.form-control(type="text" name="username" id="username" value=username)
+				label(for="password") Password
+				input.form-control(type="password" name="password" id="password")
+				button.btn.btn-success Log In	
+			
+

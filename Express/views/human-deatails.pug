@@ -1,0 +1,14 @@
+extends _layout
+
+block site-title
+	#{result.name} Details
+
+block content
+	h1= result.name
+	h1= result.weight
+		span.weight kg.
+	h1= result.height
+		span.height cm.
+	h1= result.result
+	form(action="/bmi")
+		button.btn.btn-success View List

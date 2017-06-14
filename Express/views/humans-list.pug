@@ -1,0 +1,13 @@
+extends _layout
+
+block site-title
+	| List
+
+block content
+	h3 Names:
+	ul
+		each hmn in result
+			li
+				a(href="bmi/" + hmn.id)=hmn.name
+	form(action="/bmi/create")
+		button.btn.btn-success Calculate BMI 

@@ -1,0 +1,17 @@
+include _nav
+<!DOCTYPE html>
+html(lang="en")
+head
+	meta(charset="UTF-8")
+	title
+		|BMI app:
+		block site-title
+	link(rel="stylesheet", href="/libs/bootstrap/bootstrap.css")
+	link(rel="stylesheet", href="/static/css/main.css")
+body
+
+	#content
+		.header
+			+nav
+		block content
+	
