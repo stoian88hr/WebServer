@@ -11,10 +11,6 @@ npm run dev
 
 </article>
 
-
-<h2>Setup</h2>
-<p>Run <code>docker-compose build</code>. It will</p>
-<ul>
 <li>npm install</li>
 </ul>
 <h2>Start</h2>
