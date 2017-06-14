@@ -14,7 +14,6 @@ npm run dev
 <li>npm install</li>
 </ul>
 <h2>Start</h2>
-<p>Run <code>docker-compose up</code> to create and start the container.</p>
 <p>Start your Express.js app at http://localhost:3000/</p>
 
 </article>
